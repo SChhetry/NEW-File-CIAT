@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CIAT Training Center.gov.in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css" rel="stylesheet">
+
+    <style>
+        .main {
+            margin-top: 50px;
+            border: 7px solid blueviolet;
+        }
+        
+        .section {
+            display: flex;
+            align-content: space-between;
+        }
+        
+        .w1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .box1 {
+            height: 250px;
+            background-color: peru;
+            margin-right: -2.5%;
+            /* order: 2; */
+        }
+        
+        .a1 {
+            margin-right: 2%;
+            order: -1;
+        }
+        
+        .box2 {
+            height: 250px;
+            background-color: yellow;
+            margin-bottom: 10px;
+            order: -2;
+        }
+        
+        .box3 {
+            height: 250px;
+            background-color: rgb(55, 0, 255);
+            margin-bottom: 10px;
+            order: -3;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container main">
+        <div class="row section">
+            <div class="col-lg-7 w1">
+                <div class="col-lg-6 box1 order-1"></div>
+                <div class="col-lg-6 box2 a1"></div>
+            </div>
+            <div class="col-lg-5 box3"></div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

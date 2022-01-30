@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css" rel="stylesheet">
+    <style>
+        .my-container {
+            height: 800px;
+            background-color: #dfdfdf;
+            margin-top: 30px;
+        }
+        
+        .main {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .box {
+            height: 200px;
+            background-color: peru;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            padding: 65px 0px;
+        }
+        
+        .a1 {
+            /* order: 1; */
+        }
+        
+        .a4 {
+            order: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-container">
+        <div class="row main">
+            <div class="col-lg-5 box a1">
+                <h1>Number-1</h1>
+            </div>
+            <div class="col-lg-5  box a2">
+                <h1>Number-2</h1>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 box a3">
+                <h1>Number-3</h1>
+            </div>
+            <div class="col-lg-5 box a4">
+                <h1>Number-4</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
