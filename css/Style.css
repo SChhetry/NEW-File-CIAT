@@ -107,14 +107,9 @@ html {
 
 .section-two {
     margin-bottom: 2rem;
-    /* display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between; */
 }
 
 .concept-text {
-    /* width: 66%; */
-    /* border: 1px solid green; */
     border-left: 5px solid green;
     background-color: #fffbfb;
     box-shadow: 15px 15px 15px;
@@ -122,9 +117,6 @@ html {
 }
 
 .thrust-trg {
-    /* width: 32%; */
-    /* margin-left: 2%; */
-    /* border: 1px solid green; */
     border-left: 5px solid green;
     background-color: #ffffff;
     box-shadow: 15px 15px 15px;
@@ -149,7 +141,7 @@ html {
     font-size: 1em;
     font-weight: 100;
     text-align: justify;
-    color: rgb(133, 125, 125);
+    color: #1a1a1b;
 }
 
 .concept-text .fas,
@@ -189,7 +181,7 @@ html {
     font-size: 1em;
     font-weight: 100;
     text-align: justify;
-    color: rgb(133, 125, 125);
+    color: #1a1a1b;
 }
 
 .section-two .about .fas {
@@ -226,114 +218,12 @@ html {
     background-color: greenyellow;
 }
 
-
-/* .main {}
-            
-            .main .left-section {
-                border-right: 5px solid rgb(235, 212, 10);
-                background-color: #333366;
-                color: #fff;
-                padding: 2em 1em;
-                text-align: center;
-            }
-            
-            .left-section h2 {
-                font-size: 2em;
-                font-weight: 700;
-                text-decoration: underline;
-            }
-            
-            .left-section h6 {
-                font-size: 1.2em;
-                font-weight: 400;
-                letter-spacing: 1px;
-                line-height: 1.7em;
-                text-align: left;
-            }
-            
-            .left-section p {
-                font-size: 0.9em;
-                font-weight: 100;
-                letter-spacing: 1px;
-                line-height: 1.7em;
-                text-align: justify;
-            }
-            
-            .left-section .fas {
-                font-size: 0.9em;
-                padding: 0px 1em 0px 1px;
-            }
-            
-            .main .right-section {
-                padding: 0px;
-                border-left: 0;
-                background-color: #dfdfdf;
-            }
-            /* .superviser {
-                width: 100%;
-                border-right: 5px solid rgb(235, 212, 10);
-                margin-bottom: 2em;
-                background-color: #333366;
-                color: #fff;
-                border-radius: 6px 0 0 6px;
-            } */
-
-
-/* .superviser .box1 {
-                width: 62%;
-                text-align: center;
-                padding: 0.6em 0;
-                /* padding: 20px 0; */
-
-
-}
-*/
-/* .superviser .box2 {
-                width: 38%;
-                padding: 2em 0;
-            }
-             */
-
-/* .superviser .box1 h2 {
-                font-size: 2em;
-                font-weight: 700;
-                text-decoration: underline;
-            }
-            
-            .superviser .box1 h4 {
-                font-size: 1.2em;
-                font-weight: 400;
-                letter-spacing: 1px;
-                line-height: 1.4em;
-            }
-            
-            .superviser .box1 h5 {
-                font-size: 1em;
-                font-weight: 300;
-                letter-spacing: 1px;
-                margin-bottom: 2em;
-            }
-            
-            .superviser .box1 .gallantry {
-                color: gold;
-            }
-            
-            .superviser .box2 img {
-                width: 100%;
-                border-radius: 5px;
-            } */
-
-/* about section starts */
-
-/* about section ends */
-
-/* thrust-trg section starts */
 .gallery h2 {
     font-size: 2.3rem;
     font-weight: 700;
     text-decoration: underline;
-    /* color: #fff; */
 }
+
 .right-section .superviser {
     width: 100%;
     padding: 5px;
@@ -341,61 +231,21 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .jhpolice img {
     width: 100%;
 }
 
+
 /* School name section Starts */
+
 .ciat-school {
     width: 100%;
     background-color: #7676aa;
     padding-left: 0;
     margin-left: 0;
 }
+
 .ciat-schoo .left {
     margin-right: 5%;
-}
-.schools-name {
-    /* margin-top: 30px; */
-    /* background-color: #7676aa; */
-}
-
-/* .schools-name img {
-                width: 100%;
-                margin-top: 30px;
-                background-color: #7676aa;
-            }
-            
-            .schools-name .box {}
-            
-            .school-row {
-                text-align: center;
-            } */
-
-/* School name section Ends */
-.th {
-    margin-top: 30px;
-}
-
-/* footer starts */
-footer {
-    width: 100%;
-    background-color: #333366;
-}
-.A5 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    /* color: #fff; */
-}
-.A5 h5 {
-    font-size: 1.5rem;
-    font-weight: 100;
-    letter-spacing: 0.2rem;
-}
-.A5 h6 {
-    font-size: 1.3rem;
-    font-weight: 100;
-    letter-spacing: 0.2rem;
-    padding-top: 30px;
 }
